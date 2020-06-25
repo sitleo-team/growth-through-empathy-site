@@ -1,4 +1,4 @@
-baseurl: "growththroughempathy"
+baseurl: ""
 exclude: ["README.md"]
 permalink: pretty
 title: "Jekyll Advance Pro"
