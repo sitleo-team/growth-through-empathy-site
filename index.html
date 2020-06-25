@@ -148,11 +148,11 @@ diagonalfill=page.heroDiagonalFill %}
   <div class="container d-block d-md-none">
     <div class="row justify-content-start">
       <div class="col-12">
-        <h2 class="text-center mb-3">Our Services</h2>
+        <h2 class="text-center mb-3">Free Resources</h2>
       </div>
     </div>
     <div class="slider">
-      {% for service in services %}
+      {% for service in services limit: 2%}
       <div class="service service-summary">
         {% if service.icon %}
         <div class="service-image">
@@ -167,23 +167,23 @@ diagonalfill=page.heroDiagonalFill %}
         <div class="service-description">
           <p>{{ service.description }}</p>
         </div>
-        <div class="service-content">{{ service.content | truncate: 180 }}</div>
+        <div class="service-content">{{ service.content | truncate: 220 }}</div>
         <div class="service-link">
           <a class="service-read-more" href="{{ service.url | relative_url}}"
-            >Read More<i class="fas fa-long-arrow-alt-right ml-1"></i
+            >Sign Up<i class="fas fa-long-arrow-alt-right ml-1"></i
           ></a>
         </div>
       </div>
       {% endfor %}
     </div>
     <div class="row">
-      <div class="col-12 text-center">
+      <!-- <div class="col-12 text-center">
         <a
           class="button button-primary mt-2"
           href="{{ 'services' | relative_url }}"
           >View All Services</a
         >
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
