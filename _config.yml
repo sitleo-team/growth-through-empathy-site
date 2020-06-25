@@ -88,3 +88,5 @@ params:
 
 plugins:
   - jekyll-environment-variables
+
+theme: jekyll-theme-cayman
