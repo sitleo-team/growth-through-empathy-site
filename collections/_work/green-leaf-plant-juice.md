@@ -1,13 +1,13 @@
 ---
-title: 'Green Leaf Plant Juice'
+title: "Green Leaf Plant Juice"
 date: 2018-12-20T15:23:36+10:00
 draft: false
-featured: true
+featured: false
 weight: 2
-heroHeading: 'Green Leaf Plant Juice'
-heroSubHeading: 'Memorata haberet sepulcrales gentisque dum sic.'
-heroBackground: 'assets/images/work/devin-avery-535359-unsplash.jpg'
-image: 'assets/images/work/devin-avery-535359-unsplash.jpg'
+heroHeading: "Green Leaf Plant Juice"
+heroSubHeading: "Memorata haberet sepulcrales gentisque dum sic."
+heroBackground: "assets/images/work/devin-avery-535359-unsplash.jpg"
+image: "assets/images/work/devin-avery-535359-unsplash.jpg"
 ---
 
 Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
