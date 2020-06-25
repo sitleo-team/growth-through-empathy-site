@@ -4,7 +4,7 @@ permalink: pretty
 title: "Jekyll Advance Pro"
 collections_dir: collections
 markdown: kramdown
-remote_theme: Jekyll Advance Pro
+remote_theme: jekyll-advance-pro
 
 sass:
   sass_dir: _sass
