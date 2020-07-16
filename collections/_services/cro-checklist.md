@@ -10,7 +10,7 @@ heroBackgroundOverlay: false
 heroHeight: 500
 heroDiagonal: true
 heroDiagonalFill: "#ffffff"
-featured: true
+featured: false
 weight: 2
 urlLink: "https://experimentzone.com"
 ---

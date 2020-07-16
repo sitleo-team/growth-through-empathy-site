@@ -1,10 +1,10 @@
 ---
-title: "Upcoming July Webinar"
+title: "July Webinar"
 date: 2020-6-24T15:22:30+10:00
 draft: false
 featured: true
 weight: 2
-heroHeading: "Upcoming July Webinar"
+heroHeading: "July Webinar"
 heroSubHeading: "Memorata haberet sepulcrales gentisque dum sic."
 heroBackground: "aassets/images/work/trees.jpg"
 image: "assets/images/work/trees.jpg"
