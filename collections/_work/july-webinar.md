@@ -1,13 +1,13 @@
 ---
-title: "July Webinar"
+title: "July: Designooks & DIG Labs"
 date: 2020-6-24T15:22:30+10:00
 draft: false
 featured: true
 weight: 2
-heroHeading: "July Webinar"
+heroHeading: "July: Designooks & DIG Labs"
 heroSubHeading: "Memorata haberet sepulcrales gentisque dum sic."
-heroBackground: "aassets/images/work/trees.jpg"
-image: "assets/images/work/trees.jpg"
+heroBackground: "assets/images/dog-ez.png"
+image: "assets/images/dog-ez.png"
 urlLink: "https://us02web.zoom.us/meeting/register/tZUodu6vqjspHtw7BIq-CLRJlasq7p1YDaMr"
 ---
 
