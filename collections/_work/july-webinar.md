@@ -8,7 +8,7 @@ heroHeading: "July: Designooks & DIG Labs"
 heroSubHeading: "Memorata haberet sepulcrales gentisque dum sic."
 heroBackground: "assets/images/dog-ez.png"
 image: "assets/images/dog-ez.png"
-urlLink: "https://us02web.zoom.us/meeting/register/tZUodu6vqjspHtw7BIq-CLRJlasq7p1YDaMr"
+urlLink: "https://us02web.zoom.us/meeting/register/tZIoce2oqj0sEtRo5u598Hi2aBSBLZ37XMdc"
 ---
 
 Join for an interactive & informative conversation! We'll be taking audience questions throughout and we are look forward to meeting you.
