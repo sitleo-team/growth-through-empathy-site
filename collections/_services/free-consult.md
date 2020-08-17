@@ -10,7 +10,7 @@ heroBackgroundOverlay: false
 heroHeight: 500
 heroDiagonal: true
 heroDiagonalFill: "#ffffff"
-featured: true
+featured: false
 weight: 1
 urlLink: "https://experimentzone.com/audit/schedule"
 ---

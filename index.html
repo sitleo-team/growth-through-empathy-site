@@ -195,7 +195,7 @@ diagonalfill=page.heroDiagonalFill %}
 {% assign works = site.work | where: "featured", true | sort:'weight' %} {% if
 works.size > 0 and site.params.homepage.show_work_section %}
 <div class="home-work strip strip-grey">
-  <div class="container pt-4 pb-10">
+  <div class="container pt-4 pb-4">
     <div class="row">
       <div class="col-12">
         <h2 class="text-center mb-3">
@@ -247,7 +247,9 @@ works.size > 0 and site.params.homepage.show_work_section %}
     </div>
   </div>
 </div>
-{% endif %}
+{% endif %} {% include guest-speaker-form.html
+heading=site.params.guest-speaker-form.heading
+subheading=site.params.guest-speaker-form.subheading %}
 
 <div class="strip strip-secondary">
   <svg
@@ -255,7 +257,7 @@ works.size > 0 and site.params.homepage.show_work_section %}
     viewBox="0 0 1000 100"
     preserveAspectRatio="none"
   >
-    <path class="svg-grey" d="M738,99l262-93V0H0v5.6L738,99z"></path>
+    <path class="svg-white" d="M738,99l262-93V0H0v5.6L738,99z"></path>
   </svg>
 </div>
 
