@@ -27,22 +27,9 @@ diagonalfill=page.heroDiagonalFill %}
 
 <!-- Splash One -->
 {% if site.params.homepage.show_splash_section_one %}
-<div class="strip strip-grey pt-15 splash splash-one">
+<div class="strip strip-grey pt-5 splash splash-one">
   <div class="container">
     <div class="row">
-      {% if site.params.homepage.splash_one_image %}
-      <div
-        class="col-12 col-md-6 work-summary"
-        style="margin-bottom: 60px; margin-right: 20px;"
-      >
-        <a href="{{ site.params.homepage.splash_one_link_url | relative_url }}">
-          <img
-            class="img-fluid"
-            src="{{ site.params.homepage.splash_one_image | relative_url }}"
-          />
-        </a>
-      </div>
-      {% endif %}
       <div
         class="col-12 {% if site.params.homepage.splash_one_image %}col-md-5{% else %}col-md-12{% endif %} pb-4"
       >
@@ -70,6 +57,24 @@ diagonalfill=page.heroDiagonalFill %}
           >Join the Group</a
         >
       </div>
+      {% if site.params.homepage.splash_one_image %}
+      <div
+        class="col-12 col-md-5 offset-md-1 work-summary"
+        style="margin-bottom: 60px; margin-right: 20px;"
+      >
+        <!-- Calendly inline widget begin -->
+        <div
+          class="col-12 calendly-inline-widget"
+          data-url="https://calendly.com/experimentzone/growth-through-empathy-free-marketing-webinar?hide_event_type_details=1&primary_color=1c3ed3"
+          style="min-width: 320px; height: 500px;"
+        ></div>
+        <script
+          type="text/javascript"
+          src="https://assets.calendly.com/assets/external/widget.js"
+        ></script>
+        <!-- Calendly inline widget end -->
+      </div>
+      {% endif %}
     </div>
   </div>
 </div>
