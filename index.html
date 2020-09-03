@@ -38,12 +38,14 @@ diagonalfill=page.heroDiagonalFill %}
         {% endif %} {% if site.params.homepage.splash_one_paragraph %}
         <p>{{ site.params.homepage.splash_one_paragraph }}</p>
         {% endif %} {% if site.params.homepage.splash_one_link_url %}
-        <a
-          class="button d-none d-md-inline-block"
-          href="{{ site.params.homepage.splash_one_link_url | relative_url }}"
-        >
-          {{ site.params.homepage.splash_one_link_text }}
-        </a>
+        <div class="text-center text-md-left">
+          <a
+            class="button d-md-inline-block"
+            href="{{ site.params.homepage.splash_one_link_url | relative_url }}"
+          >
+            {{ site.params.homepage.splash_one_link_text }}
+          </a>
+        </div>
         {% endif %}
         <h3 class="mt-3">Also join the conversation on our Facebook page</h3>
         <p>
@@ -51,11 +53,13 @@ diagonalfill=page.heroDiagonalFill %}
           expertise and ask AJ and Jennifer questions and hear from our other
           resident experts.
         </p>
-        <a
-          class="btn btn-outline-primary"
-          href="https://www.facebook.com/groups/growththroughempathy/"
-          >Join the Group</a
-        >
+        <div class="text-center text-md-left">
+          <a
+            class="btn btn-outline-primary"
+            href="https://www.facebook.com/groups/growththroughempathy/"
+            >Join the Group</a
+          >
+        </div>
       </div>
       {% if site.params.homepage.splash_one_image %}
       <div
