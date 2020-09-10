@@ -59,7 +59,7 @@ params:
     show_services_section: true
     services_count: 2
     show_splash_section_one: true
-    splash_one_image: assets/images/GTE-Aug.png
+    splash_one_image: https://growththroughempathy.com/assets/images/GrowthThroughEmpathy-social.png
     splash_one_heading: This months webinar
     splash_one_paragraph: During this webinar, Experiment Zone and The Freed Agency will be giving actionable recommendations to real brands. You'll learn from grounded and real examples how you can improve your marketing efforts and make more revenue.<br><br>What will you learn?<br> - About the importance of incorporating purpose and empathy in your marketing.<br> - Ways to use empathy to improve customer experiences & conversion rates.
     splash_one_link_url: "https://calendly.com/experimentzone/growth-through-empathy-free-marketing-webinar?month=2020-08"
