@@ -8,7 +8,7 @@ heroHeight: 500
 heroDiagonal: true
 heroDiagonalFill: "#ffffff"
 featured: true
-weight: 4
+weight: 1
 urlLink: "https://experimentzone.com/giveaways/cro_checklist/"
 ---
 

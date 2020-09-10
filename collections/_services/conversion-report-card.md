@@ -8,7 +8,7 @@ heroHeight: 500
 heroDiagonal: true
 heroDiagonalFill: "#ffffff"
 featured: true
-weight: 3
+weight: 2
 urlLink: "https://experimentzone.com/giveaways/actionable_conversion_insights/"
 ---
 
