@@ -11,7 +11,7 @@ heroHeight: 500
 heroDiagonal: true
 heroDiagonalFill: "#ffffff"
 featured: true
-weight: 1
+weight: 3
 urlLink: "https://calendly.com/freedagency/free-30-minute-marketing-strategy-advice-call?month=2020-07"
 ---
 

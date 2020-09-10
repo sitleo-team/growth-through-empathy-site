@@ -65,7 +65,7 @@ params:
     splash_one_link_url: "https://calendly.com/experimentzone/growth-through-empathy-free-marketing-webinar?month=2020-08"
     splash_one_link_text: Sign Up
     show_partners: true
-    show_work_section: true
+    show_work_section: false
     work_section_heading: Upcoming Events
     work_count: 2
     show_view_all_work_button: false
