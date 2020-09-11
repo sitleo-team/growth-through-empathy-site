@@ -60,8 +60,8 @@ params:
     services_count: 2
     show_splash_section_one: true
     splash_one_image: https://growththroughempathy.com/assets/images/sept-gte.png
-    splash_one_heading: This months webinar
-    splash_one_paragraph: During this webinar, Experiment Zone and The Freed Agency will be giving actionable recommendations to real brands. You'll learn from grounded and real examples how you can improve your marketing efforts and make more revenue.<br><br>What will you learn?<br> - About the importance of incorporating purpose and empathy in your marketing.<br> - Ways to use empathy to improve customer experiences & conversion rates.
+    splash_one_heading: Monthly Webinar
+    splash_one_paragraph: "Each month, we'll cover grounded examples on how you can improve your website & marketing efforts, so you can grow your business and increase your revenue.<br /><br />The webinar is hosted by AJ Davis from <a href='https://experimentzone.com/'>Experiment Zone</a> and Jennifer Yassen from <a href='https://www.thefreedagency.com/'>The Freed Agency</a>.<br /><br />Register with the link to the right to see more information about this month's topic."
     splash_one_link_url: "https://calendly.com/experimentzone/growth-through-empathy-free-marketing-webinar?month=2020-08"
     splash_one_link_text: Sign Up
     show_partners: true

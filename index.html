@@ -4,7 +4,7 @@ title: Home
 body_classes: page-home
 header_classes: header-transparent
 heroHeading: "Growth Through Empathy"
-heroSubHeading: "Do you want to grow your brand awareness and learn how to gain more customers by leveraging empathy?"
+heroSubHeading: "Free Marketing Webinar: Optimize your ecommerce website & marketing strategy"
 heroBackground: ""
 heroBackgroundOverlay: false
 heroHeight: 400
@@ -24,20 +24,6 @@ meta_og_description: "Do you want to grow your brand awareness and learn how to 
 height=page.heroHeight heading=page.heroHeading subheading=page.heroSubHeading
 overlay=page.heroBackgroundOverlay diagonal=page.heroDiagonal
 diagonalfill=page.heroDiagonalFill %}
-
-<div class="strip strip-grey d-none d-md-block">
-  <div class="container pt-2">
-    <div class="row">
-      <div class="col-12">
-        <img
-          alt="Webinar promotional image"
-          src="assets/images/GTE.com banner.png"
-          class="img-fluid shadow"
-        />
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- Splash One -->
 {% if site.params.homepage.show_splash_section_one %}
@@ -63,9 +49,9 @@ diagonalfill=page.heroDiagonalFill %}
         {% endif %}
         <h3 class="mt-3">Also join the conversation on our Facebook page</h3>
         <p>
-          This is a community where we can share marketing and conversion
-          expertise and ask AJ and Jennifer questions and hear from our other
-          resident experts.
+          This is a curious and experienced community where we share marketing
+          and conversion tips. You can directly ask AJ and Jennifer questions,
+          as well as get feedback from other businesses.
         </p>
         <div class="text-center text-md-left">
           <a
@@ -104,7 +90,7 @@ diagonalfill=page.heroDiagonalFill %}
   <div class="container pt-md-5 pb-5">
     <div class="row">
       <div class="col-12">
-        <div class="partners">
+        <div class="partners pt-4 pt-md-0">
           {% for partner in site.data.partners %} {% if partner.image %}
           <div class="partner">
             <a href="{{ partner.urlLink | relative_url }}">
@@ -155,7 +141,7 @@ diagonalfill=page.heroDiagonalFill %}
             <a
               class="service-read-more"
               href="{{ service.urlLink | relative_url}}"
-              >Sign Up<i class="fas fa-long-arrow-alt-right ml-1"></i
+              >{{service.button}}<i class="fas fa-long-arrow-alt-right ml-1"></i
             ></a>
           </div>
         </div>
@@ -177,8 +163,8 @@ diagonalfill=page.heroDiagonalFill %}
       </div>
     </div>
     <div class="slider">
-      {% for service in services limit: 2%}
-      <div class="service service-summary">
+      {% for service in services limit: 3%}
+      <div class="service service-summary p-2">
         {% if service.icon %}
         <div class="service-image">
           <img src="{{service.icon | relative_url}}" />
@@ -195,7 +181,7 @@ diagonalfill=page.heroDiagonalFill %}
         <div class="service-content">{{ service.content | truncate: 220 }}</div>
         <div class="service-link">
           <a class="service-read-more" href="{{ service.url | relative_url}}"
-            >Sign Up<i class="fas fa-long-arrow-alt-right ml-1"></i
+            >{{service.button}}<i class="fas fa-long-arrow-alt-right ml-1"></i
           ></a>
         </div>
       </div>
@@ -218,8 +204,9 @@ diagonalfill=page.heroDiagonalFill %}
 <div class="strip strip-grey">
   <div class="container pt-2 pb-5">
     <div class="row justify-content-center">
+      <h2 class="mb-3">Watch Previous Webinars</h2>
       <div
-        class="col-11 col-md-10 text-center iframe-container img-fluid shadow"
+        class="col-11 col-md-9 text-center iframe-container img-fluid shadow"
       >
         <iframe
           src="https://www.youtube.com/embed/videoseries?list=PLoMf7noumBKsT9aMf19mI7BplW8d4OqP2"

@@ -1,14 +1,14 @@
 [
   {
+    "title": "Experiment Zone",
+    "image": "assets/images/partners/Experiment-Zone-logo.png",
+    "urlLink": "https://experimentzone.com/",
+    "imgHeight": "height: 90px; margin-left: -20px;"
+  },
+  {
     "title": "The Freed Agency",
     "image": "assets/images/partners/the-freed-agency.png",
     "urlLink": "https://www.thefreedagency.com/",
     "imgHeight": "height: 200px;"
-  },
-  {
-    "title": "Experiment Zone",
-    "image": "assets/images/partners/Experiment-Zone-logo.png",
-    "urlLink": "https://www.experimentzone.com/",
-    "imgHeight": "height: 100px;"
   }
 ]

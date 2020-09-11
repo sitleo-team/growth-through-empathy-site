@@ -8,8 +8,11 @@ heroHeight: 500
 heroDiagonal: true
 heroDiagonalFill: "#ffffff"
 featured: true
-weight: 1
+weight: 2
+button: Get Your Free Copy
 urlLink: "https://experimentzone.com/giveaways/cro_checklist/"
+redirect: https://experimentzone.com/giveaways/cro_checklist/
+layout: redirect
 ---
 
 This conversion checklist is a comprehensive checklist for ecommerce business.<br> Use this list to ensure customers have a smooth shopping experience and have all the information they need to make a purchase.
