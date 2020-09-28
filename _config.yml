@@ -88,5 +88,6 @@ params:
 
 plugins:
   - jekyll-environment-variables
+  - jekyll-sitemap
 
 theme: jekyll-theme-cayman
